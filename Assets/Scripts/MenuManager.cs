@@ -5,7 +5,7 @@ public class MenuManager : MonoBehaviour
     public static MenuManager Instance;
     
     [SerializeField]
-    private MenuItem[] _menuItems;
+    private Menu[] _menuItems;
 
     private void Awake() => Instance = this;
 
@@ -20,10 +20,10 @@ public class MenuManager : MonoBehaviour
         }
     }
 
-    public void OpenMenu(MenuItem menuItem)
+    public void OpenMenu(Menu menu)
     {
         CloseAllMenu();
-        menuItem.OpenMenu();
+        menu.OpenMenu();
     }
 
     private void CloseAllMenu()
