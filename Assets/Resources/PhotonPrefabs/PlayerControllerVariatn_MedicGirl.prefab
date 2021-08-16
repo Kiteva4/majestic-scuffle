@@ -202,6 +202,7 @@ SkinnedMeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
@@ -2281,15 +2282,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6071198753619121373, guid: c6e33b4ddb245e44bbc785dc74d1df8e, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 18.382242
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6071198753619121373, guid: c6e33b4ddb245e44bbc785dc74d1df8e, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.99999976
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6071198753619121373, guid: c6e33b4ddb245e44bbc785dc74d1df8e, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -3.288075
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6071198753619121373, guid: c6e33b4ddb245e44bbc785dc74d1df8e, type: 3}
       propertyPath: m_LocalRotation.w
