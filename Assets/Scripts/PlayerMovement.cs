@@ -45,7 +45,7 @@ public class PlayerMovement : MonoBehaviourPunCallbacks
         _animator.SetFloat(VelocityX, velocityX, 0.01f, Time.deltaTime);
         _animator.SetFloat(VelocityZ, velocityZ, 0.01f, Time.deltaTime);
         
-        //AimTowardMouse();
+        AimTowardMouse();
     }
 
     private void AimTowardMouse()
